@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+}
+
+#container{
+    width:100%;
+    margin:0 auto;
+}
+
+#box1 {
+    background-color: pink;
+    width: 100%;
+    height: 300px;
+    float: left; 
+}
+
+#box2 {
+    background-color: red;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+#box3 {
+    display: none;
+    background-color: grey;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+#box4 {
+    display: none;
+    background-color: brown;
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+
+
+/* Media Query at 641px */
+
+@media screen and (min-width: 641px) {
+    
+    #container {
+        width: 100%;
+        display:inherit;
+    }
+    
+    #box1 {
+    width: 25%;
+}
+
+#box2 {
+    width: 25%;
+}
+
+#box3 {
+    display: block;
+    width: 25%;
+}
+
+#box4 {
+    display:block;
+    width: 25%;
+}
+ 
+    
+}
+
+
+@media screen and (min-width: 1140px) {
+    
+    #container {
+        width: 1140px;
+    }
+    
+}
